@@ -9,8 +9,8 @@ Our purpose for this analysis was further research on the weather patterns in Ha
 
 ### Temperature Analysis Major Points
 -As shown in the June and December summary statistics below, the 50% percentile or median is 4 degrees warmer in June than December at 75 compared to 71.
-- The mean or average temperature for June is almost 4 degrees warmer in June at 74.9 than December at 71.0 
-- It should be noted that the count of recorded June temperatures is higher than the recorded December temperatures by 183 data point entries.
+-The mean or average temperature for June is almost 4 degrees warmer in June at 74.9 than December at 71.0 
+-It should be noted that the count of recorded June temperatures is higher than the recorded December temperatures by 183 data point entries.
 -The minimum temperature for June was 8 degrees higher at 64 than December which was at 56.  
 ![June Temp](Resources/June_Temp.png)
 ![Dec Temp](Resources/Dec_Temp.png)
