@@ -31,4 +31,5 @@ date_str = "2017-12" / "06" #12 for December and 06 for June
 
 session.query(Measurement.date, Measurement.tobs).\
 	filter(func.strftime("%Y-%m", Measurement.date) == date_str).all()
+
 ''' 
