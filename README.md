@@ -20,3 +20,15 @@ Our purpose for this analysis was further research on the weather patterns in Ha
 ### Temperature Analysis Takeaways and Further Research
 The results of the Surfs Up Temperature Analysis show that the location of Oahu would be a quality option to open up the Surf and Shake shop. There is a substantial amount of data collected over multiple years and between the months of June and December the temperature does not drastically change to the point that it would significantly affect the business. The max temperature for both months shows that the weather can even be close as it was only two degrees apart between June and December. The standard deviation was also close to a similar value for each month, and the average temperature was still above 70 degrees for December. For additional weather information on the months of June and December, the first query below shows the precipitation data for each month, where 12 is used for December and 06 for June. The second query is for capturing the most recent full year of data for each month which was 2016. 
 
+'''
+date_str = "12" / "06" #12 for December and 06 for June
+
+session.query(Measurement.date, Measurement.prcp).\
+	filter(func.strftime("%m", Measurement.date) == date_str).all()
+
+
+date_str = "2017-12" / "06" #12 for December and 06 for June
+
+session.query(Measurement.date, Measurement.tobs).\
+	filter(func.strftime("%Y-%m", Measurement.date) == date_str).all()
+''' 
